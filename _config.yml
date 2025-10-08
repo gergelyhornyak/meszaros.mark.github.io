@@ -3,3 +3,7 @@ description: A simple GitHub Pages site using Jekyll
 baseurl: ""
 url: "https://meszaros.mark.github.io"
 theme: jekyll-theme-minimal
+theme_color: "#4a90e2"
+accent_color: "#e76f51"
+text_color: "#333333"
+background_color: "#fafafa"
