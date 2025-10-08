@@ -1,5 +1,5 @@
 title: My Jekyll Website
 description: A simple GitHub Pages site using Jekyll
 baseurl: ""
-url: "https://<your-github-username>.github.io"
+url: "https://meszaros.mark.github.io"
 theme: jekyll-theme-minimal
