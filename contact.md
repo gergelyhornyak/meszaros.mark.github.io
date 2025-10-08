@@ -3,9 +3,22 @@ layout: default
 title: Contact
 ---
 
-# Contact
+# Contact Me
 
-You can reach me at:
+Feel free to reach out using the form below.  
+Messages are sent directly to my email via [Formspree](https://formspree.io/).
 
-📧 **email@example.com**  
-🌐 [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
+<form action="https://formspree.io/f/your-form-id" method="POST">
+  <label>Your Name</label>
+  <input type="text" name="name" required>
+
+  <label>Your Email</label>
+  <input type="email" name="_replyto" required>
+
+  <label>Message</label>
+  <textarea name="message" rows="6" required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+
+> ⚙️ Replace `your-form-id` above with your actual Formspree form ID after signing up.
