@@ -6,19 +6,14 @@ title: Contact
 # Contact Me
 
 Feel free to reach out using the form below.  
-Messages are sent directly to my email via [Formspree](https://formspree.io/).
 
-<form action="https://formspree.io/f/your-form-id" method="POST">
-  <label>Your Name</label>
+<form action="https://formsubmit.co/gergely2125@gmail.com" method="POST">
+  Név:
   <input type="text" name="name" required>
-
-  <label>Your Email</label>
-  <input type="email" name="_replyto" required>
-
-  <label>Message</label>
-  <textarea name="message" rows="6" required></textarea>
-
-  <button type="submit">Send Message</button>
+  Email cím:
+  <input type="email" name="email" required>
+  Üzenet:
+  <textarea name="message" required></textarea>
+  <button type="submit">Küldés</button>
 </form>
 
-> ⚙️ Replace `your-form-id` above with your actual Formspree form ID after signing up.
